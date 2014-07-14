@@ -1,4 +1,58 @@
-*{
-	max-width: 800px;
+.mclogo{
+	width:90%;
 	margin:0 auto;
+	padding-left:5%;
 }
+.topic{
+	font-size:30px;
+	margin:12px 10%;
+
+}
+*{
+	background-image: url("images/dirtbackground.png");
+	color:	gray;
+}
+
+@media all and (min-width: 800px){
+	.topic{
+		width: 25%;
+		border: 2px solid green;
+		/*margin:10px auto;*/
+		display:inline-block;
+		text-align: center;
+	}
+	.testingclass{
+		margin:0 auto;
+	}
+	h2.headtopic{
+		display: inline-block;
+		margin:0 auto;
+	}
+	.navigation{
+		position:fixed;
+		top:0;
+		left:0;
+		background:rgba(255,255,255,.389);
+		color:black;
+		width:100%;
+		display:inline;
+		padding: 10px 30px;
+	}
+	.navbar{
+		color:black;
+		width:100%;
+		background:none;
+		text-decoration: none;
+		display:inline;
+		padding-right: 50px
+	}
+	.navbar:hover{
+		color:blue;
+	}
+	body{
+		padding-top: 40px
+	}
+}
+
+
+
