@@ -1,0 +1,43 @@
+.mclogo{
+	width:90%;
+	margin:0 auto;
+	padding-left:5%;
+}
+body{
+	padding-top:40px;
+}
+.topic{
+	font-size:15px;
+	background:rgba(125,80,34,.3);
+	border-radius: 10px;
+	margin:10px;
+	padding:2px;
+	/*margin:12px 10%;*/
+
+}
+.navbar{
+	color:black;
+	background:none;
+	text-decoration: none;
+	display:inline;
+	padding-right: 20px;
+
+}
+.navigation{
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background:rgba(255,255,255,.389);
+
+}
+h2{
+	font-size:20px;
+}
+body{
+	background-image: url("images/dirtbackground.png");
+	color:	gray;
+}
+.mchistory{
+	margin:10px;
+}
