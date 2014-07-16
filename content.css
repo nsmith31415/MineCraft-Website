@@ -1,18 +1,26 @@
 .mclogo{
-	width:90%;
+	width:80%;
 	margin:0 auto;
-	padding-left:5%;
+	padding-left:10%;
+
 }
 .begintext{
-	display: inline;
+	display: inline-block;
+	margin-left:40px;
+}
+section.block1,section.block2,section.block3{
+	margin:0 auto;
+	width:70%;
+	max-width: 800px;
 }
 body{
 	padding-top:40px;
+
 }
 
 
 .image1{
-	width:45%;
+	width:60%;
 	display:block;
 	padding:0;
 	margin:0;
@@ -69,4 +77,10 @@ body{
 }
 .mchistory{
 	margin:10px;
+}
+
+@media all and (min-width: 1000px){
+	section{
+		font-size:24px;
+	}
 }
