@@ -5,7 +5,12 @@
 
 }
 .nether{
-	background-image: url('images/nether_background.png')
+	background-image: url('images/nether_background.png');
+	color:white;
+}
+.nether section{
+	background-color:rgba(255,170,170,.4);
+	border-radius:5px;
 }
 .rsimage1{
 	width:20%;
@@ -15,6 +20,11 @@
 .mobimage1{
 	height: 65px;
 	padding: 10px;
+	background:rgba(255,255,255,.3);
+	border-radius:10px;
+}	
+.netherimage{
+	padding: 20px;
 }
 .begintext{
 	display: inline-block;
@@ -27,6 +37,7 @@ section.block1,section.block2,section.block3{
 }
 body{
 	padding-top:40px;
+	padding-bottom:60px;
 
 }
 .e{
