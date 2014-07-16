@@ -4,10 +4,17 @@
 	padding-left:10%;
 
 }
+.nether{
+	background-image: url('images/nether_background.png')
+}
 .rsimage1{
 	width:20%;
 	padding-left:2%;
 	display:inline-block;
+}
+.mobimage1{
+	height: 65px;
+	padding: 10px;
 }
 .begintext{
 	display: inline-block;
@@ -98,14 +105,28 @@ body{
 	section{
 		font-size:24px;
 	}
+	.mobimage1{
+	height: 100px;
+	padding: 10px;
+}
 
 }
 @media all and (max-width: 600px){
-	a.navbar{
-		font-size:10px;
-		margin:none;
-	}
+	
 	body{
-		font-size:12px;
+		padding:10 0;
+		margin:0 0;
 	}
+	.begintext{
+		margin:0;
+	}
+	.mobimage1{
+	height: 50px;
+	padding: 10px;
+}
+	.navigation{
+		font-size:10px;
+		position:absolute;
+		top:0; 
+}
 }
