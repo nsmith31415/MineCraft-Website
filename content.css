@@ -4,6 +4,11 @@
 	padding-left:10%;
 
 }
+.rsimage1{
+	width:20%;
+	padding-left:2%;
+	display:inline-block;
+}
 .begintext{
 	display: inline-block;
 	margin-left:40px;
@@ -16,6 +21,15 @@ section.block1,section.block2,section.block3{
 body{
 	padding-top:40px;
 
+}
+.e{
+	color:rgb(100,100,255);
+}
+.dont{
+	color:white;
+}
+.list{
+	color:green;
 }
 
 
@@ -79,8 +93,19 @@ body{
 	margin:10px;
 }
 
+
 @media all and (min-width: 1000px){
 	section{
 		font-size:24px;
+	}
+
+}
+@media all and (max-width: 600px){
+	a.navbar{
+		font-size:10px;
+		margin:none;
+	}
+	body{
+		font-size:12px;
 	}
 }
