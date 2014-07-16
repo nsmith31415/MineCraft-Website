@@ -6,6 +6,15 @@
 body{
 	padding-top:40px;
 }
+a{
+	color:inherit;
+}
+a:hover div{
+	background: rgba(255,255,255,.3);
+	color:rgb(82,52,14);
+
+}
+
 .topic{
 	font-size:15px;
 	background:rgba(125,80,34,.3);
