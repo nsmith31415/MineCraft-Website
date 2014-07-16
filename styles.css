@@ -3,7 +3,10 @@
 	margin:0 auto;
 	padding-left:5%;
 }
-
+.rsimage1{
+	width:25%;
+	display:inline-block;
+}
 .mcworld{
 	width:60%;
 }
