@@ -125,7 +125,7 @@ body{
 @media all and (max-width: 600px){
 	
 	body{
-		padding:10 0;
+		padding-top:60px;
 		margin:0 0;
 	}
 	.begintext{
@@ -135,9 +135,26 @@ body{
 	height: 50px;
 	padding: 10px;
 }
-	.navigation{
-		font-size:10px;
-		position:absolute;
-		top:0; 
+	.navbar{
+	color:black;
+	background:none;
+	text-decoration: none;
+	display:inline;
+	padding-right:5px;
+	padding-top:none;
+	margin:0 0;
+	font-size: 12px;
+
+}
+
+.navigation{
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	margin:none;
+	padding:0 5px;
+	background:rgba(255,255,255,.389);
+
 }
 }
